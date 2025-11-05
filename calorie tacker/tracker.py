@@ -1,4 +1,4 @@
-# Vedansh Rawat 25/06/2025 Building A Calorie Tracking console Application
+# Vedansh Rawat 03/11/2025 Building A Calorie Tracking console Application
 from datetime import datetime
 print("Welcome to the Calorie Tracker!\nYou can log your meals and view your total calorie intake for the day.")
 meals=[] # a list to store meal names
@@ -44,4 +44,5 @@ if save == "yes":
         file.write(f"{'Total:':<20} | {total_calories:>9.2f}\n")
         file.write(f"{'Average:':<20} | {average_calories:>9.2f}\n")
         file.write("--------------------------------\n")
+
 
